@@ -84,4 +84,9 @@ INSERT INTO `PedidoProducto`(`pedido_id`, `producto_id`, `cantidad`) VALUES
 (5, 9, 2),
 (6, 10, 1);
 
-SELECT * FROM `PedidoProducto`;
+SELECT * FROM `usuario`;
+SELECT * FROM `pedido`;
+SELECT * FROM `PedidoProducto`
+WHERE  `pedido_id` = 1; 
+
+SELECT `pedido_id`, `producto_id`, `cantidad` FROM `PedidoProducto`
