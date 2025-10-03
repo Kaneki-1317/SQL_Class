@@ -1,7 +1,12 @@
 # MYSQL - Apuntes
 
+**JOIN o INNER** En SQL, un ```JOIN``` es una cláusula que permite combinar filas de dos o más tablas basándose en una columna relacionada entre ellas, creando un único conjunto de resultados. Existen varios tipos de ```JOIN``` (como ```INNER JOIN```, ```LEFT JOIN```, ```RIGHT JOIN```, ```FULL OUTER JOIN``` y ```CROSS JOIN```) que determinan cómo se unen los datos según las coincidencias y necesidades de la consulta
 
+ddl.sql  --> Para definir y crear tablas (```CREATE```, ```ALTER```, ```DROP```)
 
+dql.sql  --> Para consultas y selección de datos (```USE```, ```SELECT```, ```WHERE```)
+
+dml.sql  --> Para manipulación de datos (```INSERT```, ```UPDATE```, ```DELETE```)
 
 
 
